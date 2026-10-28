@@ -7,10 +7,7 @@ Full Arduino code and libraries for the Cyclist Safety Detection System (ENEL200
 The aim of this project was to design and build a system to improve cyclist safety by mitigating the risk of collisions with environmental hazards. The system includes a light bulb to enhance visibility and an LCD to display the rider’s speed. It also uses an ultrasonic sensor and a water sensor to detect obstructions and water, triggering a buzzer and an LCD message to indicate the hazard. 
 
 ## Features
-- Drives and turns in response to Logo commands sent over the serial interface
-- Ultrasonic sensor detects obstructions greater than 0 cm and up to 30 cm away
-- Active buzzer sounds whenever an obstruction is detected
-- Custom PCB shield designed in KiCad to drive the two DC motors and connect the buzzer and ultrasonic sensor
+- 
 
 ## Hardware
 - Board: Arduino Uno
@@ -26,11 +23,6 @@ The aim of this project was to design and build a system to improve cyclist safe
 ## Software
 - Arduino C++, Arduino IDE 2.3.4
 - Libraries: `HCSR04.h`, `Arduino.h`, 'ServoTimer2Plus.h', 'LiquidCrystal_I2C.h', 'Wire.h'
-
-## Results
-- 
-
-Grade: 3.6 / 6 (60%)
 
 ## How to build and upload
 1. Open the `.ino` file in Arduino IDE.

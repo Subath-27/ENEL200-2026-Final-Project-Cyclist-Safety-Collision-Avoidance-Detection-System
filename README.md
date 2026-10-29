@@ -25,7 +25,6 @@ The aim of this project was to design and build a system to improve cyclist safe
 - Buzzer: Active
 - Power: 6 × AA alkaline batteries (9 V pack)
 - Switches: 2 x Rocker Switches
-- Custom PCB: designed in KiCad, see `docs/` for schematic and layout
 - G4 LED Replacement Light, 120º, 12VAC/DC, Cool White
 
 ## Software
